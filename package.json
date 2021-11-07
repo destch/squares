@@ -1,0 +1,27 @@
+{
+  "name": "nextjs-blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "fs": "0.0.1-security",
+    "isomorphic-unfetch": "^3.1.0",
+    "list-react-files": "^0.2.0",
+    "next": "10.0.7",
+    "nprogress": "^0.2.0",
+    "react": "17.0.1",
+    "react-delay-input": "^4.1.0",
+    "react-dom": "17.0.1",
+    "react-loader-spinner": "^4.0.0",
+    "react-parallax": "^3.1.2",
+    "react-player": "^2.9.0",
+    "reactstrap": "^8.7.0",
+    "sass": "^1.28.0",
+    "swr": "^0.4.2"
+  }
+}
