@@ -37,7 +37,7 @@ const Pic =  ({pic}) => {
 
 
 export async function getServerSideProps(context) {
-    const res = await fetch(`http://picsapi.destch.com/pic?name=${context.params.id}`)
+    const res = await fetch(`http://api.pics.destch.com/pic?name=${context.params.id}`)
     const data = await res.json()
     const pic = data.results[0]
     if (!pic) {
