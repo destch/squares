@@ -10,8 +10,11 @@ return (
 
         <React.Fragment>
                 <Container>
+                    <Breadcrumb className="pl-0">
+                        <BreadcrumbItem active>destch</BreadcrumbItem>
+                    </Breadcrumb>
                     <div className="hero-content">
-                        <h1 className="hero-heading">pics from life</h1>
+                        <h1 className="hero-heading">pics from my life</h1>
                     </div>
                 </Container>
                 <section className="py-2">
